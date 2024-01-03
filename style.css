@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+}
+
 body,
 p,
 footer {
@@ -17,4 +26,123 @@ nav li a {
 
 button {
   font-family: "DM Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#page {
+  width: 1010px;
+  margin: 0 auto 30px;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.nav-items li a {
+  color: #1f1534;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.nav-items li a:hover {
+  font-weight: 700;
+  cursor: pointer;
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 58px auto 82px;
+}
+
+section {
+  width: 489px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+section h1 {
+  color: #000;
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+section h1 span {
+  color: #89c5cc;
+  font-weight: 700;
+}
+
+section p {
+  color: #7d7987;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  background: #69b99d;
+  height: 56px;
+  width: 179px;
+  padding: 14px 32px 15px 32px;
+
+  border: none;
+  border-radius: 4px;
+
+  color: #f9f9f9;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+footer,
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.balls {
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
