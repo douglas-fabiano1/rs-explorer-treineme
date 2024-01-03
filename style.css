@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body,
+p,
+footer {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+nav li a {
+  font-family: "Mulish", sans-serif;
+}
+
+button {
+  font-family: "DM Sans", sans-serif;
+}
